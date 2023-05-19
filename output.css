@@ -610,10 +610,6 @@ video {
   height: auto;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .w-32 {
   width: 8rem;
 }
@@ -644,6 +640,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.content-center {
+  align-content: center;
 }
 
 .border {
