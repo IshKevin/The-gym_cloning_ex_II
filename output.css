@@ -646,6 +646,14 @@ video {
   align-content: center;
 }
 
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -773,6 +781,10 @@ video {
 .shadow-black {
   --tw-shadow-color: #000;
   --tw-shadow: var(--tw-shadow-colored);
+}
+
+.hover\:rounded-3xl:hover {
+  border-radius: 1.5rem;
 }
 
 .hover\:border:hover {
