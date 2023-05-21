@@ -7,13 +7,13 @@
     <title>FREEBiers</title>
     <link rel="stylesheet" href="output.css">
 </head>
-<body class="flex  flex-col content-center mt-4 mb-4 ml-16 mr-16">
- <header class="flex  m-4 h-auto w-full">
+<body class="flex  flex-col justify-center my-8 ml-16 mr-16">
+ <header class="flex justify-around   mb-12 h-auto w-full space-x-8">
     <div>
-        <img class="p-2 m-2" src="img/Log.PNG" alt="Laslesvpn">
+        <img class="h-8" src="img/Log.PNG" alt="Laslesvpn">
     </div>
     <div class=" flex capitalize font-thin text-gray-400 ">
-        <ul class="flex text-2xl p-2 m-2">
+        <ul class="flex text-sm p-2 space-x-12 ">
             <li class="ml-4">
                 <a href="#">About</a>
             </li>
@@ -32,9 +32,9 @@
         </ul>
     </div>
     <div class="flex">
-        <button class="capitalize text-gray-900 p-2 w-32 h-12 text-2xl font-bold hover:text-red-500 hover:border hover:rounded-3xl hover:border-red-500">sign in</button>
+        <button class="capitalize text-gray-900  w-32 h-12 text-sm font-bold hover:text-red-500 hover:border hover:rounded-3xl hover:border-red-500">sign in</button>
         <button 
-        class="capitalize text-gray-900 p-2 text-2xl  w-32 h-12 font-bold hover:text-red-500 hover:border hover:rounded-3xl hover:border-red-500">sign up</button>
+        class="capitalize text-gray-900  text-sm  w-32 h-12 font-bold hover:text-red-500 hover:border hover:rounded-3xl hover:border-red-500">sign up</button>
     </div>
  </header> 
  <main class="flex flex-col ">
@@ -49,15 +49,15 @@
         <p class=" mt-8 mb-8 text-base text-gray-600">
             Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us
         </p>
-        <button class=" text-white font-bold capitalize bg-red-500 w-48 h-12 shadow-black rounded-xl">Get started </button>
+        <button class=" text-white font-bold capitalize bg-red-500 w-48 h-12 shadow-red-500 rounded-xl">Get started </button>
     </div>
     <div>
         <img src="/img/desk-it.PNG" alt="it-working">
     </div>
     </div>
     
-    <div class="mt-4 grid grid-cols-3">
-        <span class="flex flex-row">
+    <div class="my-8 space-x-12 grid grid-cols-3">
+        <span class="flex flex-row justify-center">
             <div>
                 <img src="/img/Contact.PNG" alt="contant">
             </div>
@@ -66,7 +66,7 @@
             <div class="font-semibold text-sm text-gray-400 capitalize">Users</div>
         </div>
         </span>
-        <span class="flex flex-row">
+        <span class="flex flex-row justify-center">
             <div>
                 <img src="/img/Location.PNG" alt="location">
             </div>
@@ -75,7 +75,7 @@
             <div class="font-semibold text-sm text-gray-400 capitalize">Locations</div>
         </div>
         </span>
-        <span class="flex flex-row">
+        <span class="flex flex-row justify-center">
             <div>
                 <img src="/img/Server.PNG" alt="Server">
             </div>
@@ -112,7 +112,7 @@
     <p class=" text-center m-8 font-thin text-sm text-gray-800">
         Let's choose the package that is best for you and explore it happily and<br> cheerfully.
     </p>
-    <div class="grid grid-cols-3 mt-4 mb-12">
+    <div class="flex justify-around mt-4 mb-12">
         <div class="border-2 rounded-3xl border-gray-400 w-64 p-14 hover:border-red-500">
             <img src="/img/Free-Plan.PNG" alt="free-plan">
             <h1 class="mt-7 font-bold text-center ">Free Plan</h1>
@@ -154,23 +154,30 @@
         </div>
     </div>
  </section>
- <section class="h-auto" id="sect4">
-    <h1>
-        Huge Global Network of Fast VPN
+ <section class="h-auto text-center" id="sect4">
+    <h1 class="font-bold taxt-gray-800 text-3xl" >
+        Huge Global Network <br> of Fast VPN
     </h1>
-    <p>See LaslesVPN everywhere to make it easier for you when you move locations.</p>
+    <p class="font-thin text-gray-800" >See LaslesVPN everywhere to make it easier for you when you move locations.</p>
     <img src="img/grobal.PNG" alt="">
+    <figure class="flex  justify-evenly">
+        <img class="mx-8 my-12" src="/img/netfilx.PNG" alt="netfilx">
+        <img class="mx-8 my-12" src="/img/Reddit.PNG" alt="reddit">
+        <img class="mx-8 my-12" src="/img/amozin.PNG" alt="amazon">
+        <img class="mx-8 my-12" src="/img/discord.PNG" alt="discord">
+        <img class="mx-8 my-12" src="/img/spotfy.PNG" alt="spotify">
+    </figure>
  </section>
  <section class="h-auto" id="sect4">sect5</section>
 </main>
- <footer class="h-auto">
-    <div>
+ <footer class="h-auto flex w-full p-12 space-x-4 font-thin bg-slate-100">
+    <div class="w-3/6">
         <img src="img/Log.PNG" alt="log">
         <p>
-            LaslesVPN is a private virtual network that
+            LaslesVPN is a private virtual network that <br>
             has unique features and has high security. 
         </p>
-        <div>
+        <div class="flex">
             <span>
                 <img src="/img/facebook.PNG" alt="">
             </span>
@@ -179,15 +186,39 @@
             </span><span>
                 <img src="/img/instagram.PNG" alt="">
             </span>
-            p
         </div>
         <p>©2020LaslesVPN</p>
     </div>
-    <div>
-     
+    <div class="w-1/6">
+     <h1 class="font-bold">Product</h1>
+     <ol>
+        <li>Download </li>
+        <li>Pricing</li>
+        <li>Locations</li>
+        <li>Server</li>
+        <li>Countries</li>
+        <li>Blog</li>
+     </ol>
     </div>
-    <div></div>
-    <div></div>
+    <div class="w-1/6">
+        <h1 class="font-bold
+        ">Engage</h1>
+     <ol>
+        <li>LaslesVPN ? </li>
+        <li>FAQ</li>
+        <li>Tutorials</li>
+        <li>About Us</li>
+        <li>Privacy Policy</li>
+        <li>Terms of Service</li>
+     </ol>
+    </div>
+    <div class="w-1/6">
+        <h1 class="font-bold
+        ">Earn Money</h1>
+        <ol>
+           <li>Affiliate</li>
+           <li>Become Partner</li>
+    </div>
  </footer>  
 </body>
 </html>
